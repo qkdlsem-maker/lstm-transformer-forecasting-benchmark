@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "main_runs": 300,
+  "unique_conditions": 15,
+  "seeds_per_model": 10,
+  "baseline_records": 44,
+  "statistical_checks": "means, SD, paired differences, CI, t, Wilcoxon, dz, Holm",
+  "caveat": "Uncertainty is across training seeds on one fixed split; no future-regime guarantee."
+}
