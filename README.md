@@ -1,8 +1,8 @@
-# KCI LSTM Transformer Study
+# LSTM–Transformer Forecasting Benchmark
 
 시계열 예측에서 LSTM과 Transformer를 재현 가능한 조건으로 비교하는 연구입니다.
 
-**상태: 2026-09-30 본 실험 300회, 학습률 선택 48회, 기준 모델 44건 완료. 독립 통계 검증 통과. 수정 원고 v5 제공.**
+**상태: 2026-09-30 본 실험 300회, 학습률 선택 48회, 기준 모델 44건 완료. 독립 통계 검증 통과.**
 
 이전 원고의 수치를 검증된 신규 결과로 간주하지 않습니다. 실제 공개 데이터만 사용하고, 단순 기준 모델이 더 좋거나 가설과 반대인 결과도 함께 보고합니다.
 
@@ -35,8 +35,7 @@ python plot_results.py
 
 ## 파일
 
-- `LSTM_Transformer_수정논문_v5.docx`: 신규 결과만 반영한 편집 가능한 8쪽 원고, 표 6개·그림 5개·참고문헌 15개. 원본 HWP는 보존했으며 HWP 변환본은 포함하지 않습니다.
-- `kci_verified_research_v5.zip`: 코드, 실행별 매니페스트, 전체 결과 CSV, 데이터 해시, 그림, 수정 원고. 압축 해제 후 루트에서 재현 명령을 실행합니다. 원자료와 체크포인트는 포함하지 않습니다.
+- `kci_verified_research_v5.zip`: 코드, 실행별 매니페스트, 전체 결과 CSV, 데이터 해시, 그림. 논문 파일은 포함하지 않습니다. 압축 해제 후 루트에서 재현 명령을 실행합니다. 원자료와 체크포인트는 포함하지 않습니다.
 - `manuscript_model_summary.csv`, `manuscript_baselines.csv`, `paired_statistics.csv`: 원고 수치와 모든 조건의 통계.
 - `validate_results.py`, `publish_results.py`: 실행 완전성·평가 일치·통계 및 Holm 보정 재계산.
 - `attribution.py`, `plot_results.py`: 같은 방식의 입력 기울기 분석과 그림.
